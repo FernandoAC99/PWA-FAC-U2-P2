@@ -1,10 +1,10 @@
 let principal = $("#principal");
 let news = $("#news");
 let url = window.location.href
-let swDirect = "/PWA-FAPF-U2-P2/sw.js"
+let swDirect = "/PWA-FAC-U2-P2/sw.js"
 
 if(navigator.serviceWorker){
-    console.log("Muy bien");
+    console.log("Todo correcto");
     if(url.includes('localhost')){
         swDirect = "/sw.js"
     }
